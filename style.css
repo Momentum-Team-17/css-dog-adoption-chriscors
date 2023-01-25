@@ -1,0 +1,32 @@
+*{
+    border-color: black;
+    border-width: 2px; 
+     
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Open Sans;
+    background-color: #f2f2f2;
+}
+
+header{
+    background-color: #083d77;
+    color: white;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+main {
+    background-color: white;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+
+.border-line{
+    background-color: #89deef;
+    height: 3px;
+    
+}
