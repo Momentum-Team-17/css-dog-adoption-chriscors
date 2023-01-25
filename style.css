@@ -1,8 +1,8 @@
-*{
+/* * {
     border-color: black;
     border-width: 2px; 
-     
-}
+    border-style: solid;
+} */
 
 body {
     width: 80%;
@@ -24,9 +24,134 @@ main {
     padding-left: 2em;
 }
 
+h3 {
+    font-family: Oswald;
+    margin: 0;
+}
 
+img {
+    /* width: 100%; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0 3px;
+    border-radius: 15px;
+    background-color: #89DEEF;
+}
 .border-line{
     background-color: #89deef;
     height: 3px;
     
+}
+.post{
+    width: 32%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.traits {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    color: white;
+    background-color: #A6A9F0;
+    height: 200px;
+    /* justify-content: space-around; */
+}
+
+.footer-post {
+    margin:0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#f1:hover{
+    background:
+            /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(182, 190, 193, 0.464),
+                rgba(182,
+                    190,
+                    193,
+                    0.464)),           /* bottom, image */
+            url(starter_files/images/donate.jpg);
+}
+#f1 {
+    background:
+        /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(9, 77, 100, 0.464),
+            rgba(9,
+                77,
+                100,
+                0.464)),
+        /* bottom, image */
+        url(starter_files/images/donate.jpg);
+}
+
+#f2 {
+    background:
+        /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(9, 77, 100, 0.464),
+        rgba(9,
+            77,
+            100,
+            0.464)),
+        /* bottom, image */
+        url(starter_files/images/volunteer.jpg);
+}
+
+#f3 {
+    background:
+        /* top, transparent red, faked with gradient */
+    linear-gradient(rgba(9, 77, 100, 0.464),
+            rgba(9,
+                77,
+                100,
+                0.464)),
+        url(starter_files/images/location.png);
+}
+#f2:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+linear-gradient(rgba(182, 190, 193, 0.464),
+        rgba(182,
+            190,
+            193,
+            0.464)),
+        /* bottom, image */
+        url(starter_files/images/volunteer.jpg);
+}
+
+#f3:hovver {
+    background:
+        /* top, transparent red, faked with gradient */
+linear-gradient(rgba(182, 190, 193, 0.464),
+        rgba(182,
+            190,
+            193,
+            0.464)),
+        url(starter_files/images/location.png);
+}
+.footer-post h2 {
+    margin: auto;
 }
