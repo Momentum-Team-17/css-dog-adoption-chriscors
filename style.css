@@ -142,7 +142,7 @@ linear-gradient(rgba(182, 190, 193, 0.464),
         url(starter_files/images/volunteer.jpg);
 }
 
-#f3:hovver {
+#f3:hover {
     background:
         /* top, transparent red, faked with gradient */
 linear-gradient(rgba(182, 190, 193, 0.464),
